@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.img{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(clg.images/collegeface.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: whitesmoke;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 200px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    font-family: bold;
+    font-size: 20px;
+
+}
+nav ul li{
+    background-color: black;
+    border-radius: 9px;
+    padding: 7px;
+    color: rgba(255, 0, 0, 0.902);
+    font-weight: bold;
+
+}
+.headerimage{
+    display: flex;
+    width: 700px;
+    height: 700px;
+    position: relative;
+    margin-top: 0;
+}
+
+.home ul a{
+    display: inline-block;
+    position: fixed;
+    padding: 8px 12px ;
+
+}
+.nav ul li a{
+    text-decoration: none;
+}
+.CKR-info{
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+ li a:hover{
+    background-color: rgb(25, 231, 25);
+}
+
+.CKR2{
+    color: red;
+    text-align: center;
+}
+.secretary{
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.secretary h2{
+    color: red;
+}
+.Alumni{
+    text-align: center;
+    background-color: whitesmoke;
+}
+.AlumuniImages{
+ padding:0;
+ border-color: whitesmoke;
+}
+
+.contact{
+     text-align: center;
+    width: 300px;
+    height: 300px;
+}
+.addresslocation{
+    text-align: center;
+    background-image:url(clg.images/contactaddress.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: #131213;
+    font-weight: bold;
+
+
+}
+.parablack1{
+    color: black;
+}
+.marquee1{
+    font-size: 20px;
+    color: blue;
+    padding: 5px;
+    font-weight: bold;
+}
+img {
+    
+    background-color:black;
+    font-family: cursive;
+    font-weight: bold;
+}
+.alumuniH{
+    color: red;
+}
+.Menulist{
+    color: white;
+    text-align: center;
+    font-family: Verdana;
+}
+.quickcontact{
+    
+    font-family: Verdana;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blanchedalmond;
+}
+.addresslocationimg{
+    background:linear-gradient(0,0,0,0.5), (0,0,0,0.5);
+}
